@@ -124,8 +124,8 @@ export default {
   },
   data() {
     return {
-      startDate: '2015.12.04',
-      endDate: '2016.01.15',
+      startDate: '2019.5.22',
+      endDate: '2019.5.23',
       pro_filter_flag: false,
       selectAll_flag: true,
       pro_list: [],
