@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import App from './App'
 import Vuex from 'vuex'
-import VueRouer from 'vue-router'
+import VueRouter from 'vue-router'
 import column from 'components/column/column'
 import funnel from 'components/funnel/funnel'
 import heat from 'components/heat/heat'
@@ -13,17 +13,17 @@ import {DatePicker} from 'element-ui'
 
 Vue.component(DatePicker.name, DatePicker)
 
-Vue.use(VueRouer)
+Vue.use(VueRouter)
 Vue.use(Vuex)
 
 const store = new Vuex.Store({
   state: {
     count: 0,
     // color: ['#325B69', '#698570', '#AE5548', '#6D9EA8', '#9CC2B0', '#C98769']
-    color: ['#007cdc','#ff5675','#ff8345','#f8bd0b','#009f5d','#8cc540']
+    color: ['#007cdc', '#ff5675', '#ff8345', '#f8bd0b', '#009f5d', '#8cc540']
   }
 });
-const router = new VueRouer({
+const router = new VueRouter({
   routes: [{
     path: '/column',
     component: column
