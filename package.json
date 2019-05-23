@@ -1,8 +1,8 @@
 {
-  "name": "Dashboard",
+  "name": "dynamic-echarts",
   "version": "1.0.0",
-  "description": "Charts Dashboard",
-  "author": "Simon Zhang<simonzhangr@foxmail.com>",
+  "description": "动态电子图表",
+  "author": "Oliver <yunjiexll@gmail.com>",
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",
