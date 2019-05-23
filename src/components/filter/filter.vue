@@ -137,16 +137,16 @@ export default {
     }
   },
   mounted() {
-    this._init()
+    this.o_init()
   },
   methods: {
-    _init() {
+    o_init() {
       this.prevClass = this.$parent.$el._prevClass
       this.option = this.myChart.getOption()
       this.resetOption = this._deepCopy(this.myChart.getOption())
-      this._initProList()
+      this.o_initProList()
     },
-    _initProList() {
+    o_initProList() {
       let arr = []
       if (this.prevClass !== 'point') {
         this.showProduct = true

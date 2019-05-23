@@ -22,7 +22,7 @@ export default {
     name: String
   },
   created() {
-    this._init()
+    this.o_init()
   },
   data() {
     return {
@@ -31,7 +31,7 @@ export default {
     }
   },
   methods: {
-    _init() {
+    o_init() {
       this.color.forEach((color) => {
         this.styleArr.push({
           background: color,

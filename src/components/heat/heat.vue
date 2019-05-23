@@ -26,7 +26,7 @@ export default {
     }
   },
   methods: {
-    _init(options) {
+    o_init(options) {
       this.myChart = echarts.init(document.querySelector('.heat .main'))
       this.myChart.setOption(options)
       this.legendArr = options.series
@@ -101,7 +101,7 @@ export default {
         }]
       }
       window.onresize = this.myChart.resize
-      this._init(options)
+      this.o_init(options)
     });
   }
 }
