@@ -1,8 +1,8 @@
 <!-- 柱状图 -->
 <style lang="stylus" scoped>
 .columnChart
-  height 800px
-  background url('../../assets/bg.jpg') no-repeat
+  height 600px
+  // background url('../../assets/bg.jpg') no-repeat
   background-size 100% 100%
   color white
   .main

@@ -2,7 +2,7 @@
 <style lang="stylus" scoped>
 .line
   height 1000px
-  background url('../../assets/bg.jpg') no-repeat
+  // background url('../../assets/bg.jpg') no-repeat
   background-size 100% 100%
   .main
     width 100%

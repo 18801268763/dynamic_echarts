@@ -1,8 +1,8 @@
 <!-- 折线图 -->
 <style lang="stylus" scoped>
 .multipleColumn
-  height 1000px
-  background url('../../assets/bg.jpg') no-repeat
+  height 600px
+  // background url('../../assets/bg.jpg') no-repeat
   background-size 100% 100%
   .main
     width 100%

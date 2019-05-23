@@ -1,7 +1,7 @@
 <!-- 散点图 -->
 <style lang="stylus" scoped>
 .point
-  background url('../../assets/bg.jpg') no-repeat
+  // background url('../../assets/bg.jpg') no-repeat
   background-size 100% 100%
   .main
     height calc(100% - 120px)

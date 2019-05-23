@@ -7,7 +7,7 @@ let arr = []
 let starCount = 500
 let rains = []
 let rainCount = 20
-console.log(window)
+// console.log(window)
 function Star() {
   this.x = window.innerWidth * Math.random()
   this.y = window.innerHeight * Math.random()
