@@ -103,7 +103,7 @@ export default {
             bottom: 50,
             splitNumber: 5,
             inRange: {
-              color: ['#255B78', '#2A7484', '#2F9696', '#3BBCB0', '#51D4EB']
+              color: ['#a7cf8c', '#f7da64', '#f29e39', '#da555d', '#b9377a']
             },
             textStyle: {
               color: '#fff'

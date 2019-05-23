@@ -4,7 +4,7 @@
 
 > 本例包含柱状图、折线图、散点图、热力图、复杂柱状图、预览面板等
 
-后续会有新的版本，欢迎大家关注 
+后续会有新的版本，欢迎大家关注
 
 # 技术栈
 
@@ -174,3 +174,15 @@ npm run build
 If you find this project useful, you can buy me a cup of coffee
 
 <img width="650" src="https://static.oschina.net/uploads/space/2017/0223/201225_oQrz_2493500.jpeg" alt="">
+
+######  散点图
+point.vue组件
+
+###### 折线图
+
+###### 柱状图
+column.vue
+
+###### 复杂柱状图
+multipleColumn.vue
+

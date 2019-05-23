@@ -7,13 +7,15 @@
 
 <template>
 <div class="mainApp">
-  <router-view class="router-view"></router-view>
+    <CanvasBackground />
+    <router-view class="router-view"></router-view>
 </div>
 
 </template>
 
 <script>
 import axios from 'axios'
+import CanvasBackground from './components/CanvasBackground'
 
 export default {
   data() {
@@ -21,7 +23,11 @@ export default {
       seller: {}
     }
   },
-  created() {}
+  created() {},
+  components: {
+    CanvasBackground
+  }
 }
+
 
 </script>

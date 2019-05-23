@@ -19,7 +19,8 @@ Vue.use(Vuex)
 const store = new Vuex.Store({
   state: {
     count: 0,
-    color: ['#325B69', '#698570', '#AE5548', '#6D9EA8', '#9CC2B0', '#C98769']
+    // color: ['#325B69', '#698570', '#AE5548', '#6D9EA8', '#9CC2B0', '#C98769']
+    color: ['#007cdc','#ff5675','#ff8345','#f8bd0b','#009f5d','#8cc540']
   }
 });
 const router = new VueRouer({

@@ -22,6 +22,7 @@ import column from 'components/column/column'
 import line from 'components/line/line'
 import multipleColumn from 'components/multipleColumn/multipleColumn'
 import point from 'components/point/point'
+// import particle from 'components/particle/particle'
 
 export default {
   data() {
@@ -30,7 +31,7 @@ export default {
     }
   },
   mounted() {
-    this._init()
+    this.o_init()
   },
   methods: {
     _resize() {
@@ -38,7 +39,7 @@ export default {
         myChart.resize()
       })
     },
-    _init() {
+    o_init() {
       this.items = document.querySelectorAll('.flex-container .item')
       for (let i = 0; i < this.items.length; i++) {
         this.items[i].dataset.order = i + 1;
@@ -96,7 +97,7 @@ export default {
     margin:0px;
     padding:0px;
     padding-top 5%
-    background url('../../assets/bg.jpg');
+    // background url('../../assets/bg.jpg');
     background-size 100% 100%
 .flex-container.column
     position relative
