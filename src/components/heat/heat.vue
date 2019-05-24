@@ -63,7 +63,7 @@ export default {
             color: '#fff'
           }
         },
-        backgroundColor: '#404a59',
+        backgroundColor: 'transparent',
         visualMap: {
           min: 0,
           max: 500,

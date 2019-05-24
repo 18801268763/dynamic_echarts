@@ -1,7 +1,7 @@
 <!-- 层叠柱状图 -->
 <style lang="stylus" scoped>
 .line
-  height 1000px
+  height 600px
   // background url('../../assets/bg.jpg') no-repeat
   background-size 100% 100%
   .main

@@ -176,16 +176,22 @@ If you find this project useful, you can buy me a cup of coffee
 <img width="650" src="https://static.oschina.net/uploads/space/2017/0223/201225_oQrz_2493500.jpeg" alt="">
 
 ######  散点图
+
 point.vue组件
 
 ###### 折线图
 
+line.vue组件
+
 ###### 柱状图
+
 column.vue
 
 ###### 复杂柱状图
+
 multipleColumn.vue
 
 # issues
+
 point.vue无法正常显示
 

@@ -5,6 +5,8 @@
   background-size 100% 100%
   .main
     height calc(100% - 120px)
+    height 400px
+    // height 500px
     width 100%
     transition all 0.5s linear
 </style>
@@ -113,7 +115,11 @@ export default {
             map: 'china',
             label: {
               emphasis: {
-                show: false
+                show: true,
+                color: '#00ff00',
+                fontSize: 13,
+                padding: [3, 25, 5, 6],
+                position: 'inside'
               }
             },
             zoom: 1,
@@ -125,7 +131,7 @@ export default {
                 borderColor: 'rgba(255, 255, 255, 0.35)'
               },
               emphasis: {
-                color: '#2a333d'
+                color: '#fff'
               }
             }
           },
